@@ -6,5 +6,9 @@ tag @a remove nhc_spectator
 tag @a remove nhc_player
 tag @a remove nhc_map_center
 
+advancement revoke @a everything
+experience set @a 0 points
+experience set @a 0 levels
+
 execute as @a run function nhc:prepareplayer
 function nhc:preparegame
