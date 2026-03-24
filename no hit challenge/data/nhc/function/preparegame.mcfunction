@@ -1,6 +1,7 @@
 scoreboard players set #estado_global nhc_st_game_state 0
 difficulty peaceful
 gamerule pvp false
+gamerule players_sleeping_percentage 100
 
 execute store success score #spreadSuccess nhc_st_spread_success run spreadplayers ~-20000 ~-20000 10 10 false @a
 execute if score #spreadSuccess nhc_st_spread_success matches 0 run spreadplayers ~-30000 ~-30000 10 10 false @a

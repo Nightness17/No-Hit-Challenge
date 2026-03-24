@@ -9,3 +9,4 @@ execute as @a[scores={nhc_tr_spectators=1}] run function nhc:spectatorvote
 
 execute as @a[scores={nhc_tr_shieldless=1..}] run function nhc:settings/toggleshieldlessmode
 execute as @a[scores={nhc_tr_pvp=1..}] run function nhc:settings/togglepvp
+execute as @a[scores={nhc_tr_allow_sleep=1..}] run function nhc:settings/togglesleep

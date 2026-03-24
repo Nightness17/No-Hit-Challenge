@@ -17,10 +17,12 @@ scoreboard objectives add nhc_tr_forced_start trigger
 #Configuraciones
 scoreboard objectives add nhc_cfg_pvp dummy
 scoreboard objectives add nhc_cfg_shieldless dummy
+scoreboard objectives add nhc_cfg_allow_sleep dummy
 
 #Triggers de configuraciones
 scoreboard objectives add nhc_tr_shieldless trigger
 scoreboard objectives add nhc_tr_pvp trigger
+scoreboard objectives add nhc_tr_allow_sleep trigger
 
 #Verificar partida ya comenzada
 execute unless score #estado_global nhc_st_game_state matches 0..2 run function nhc:preparegame
